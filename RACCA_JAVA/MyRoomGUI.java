@@ -59,7 +59,7 @@ public class MyRoomGUI extends Frame implements ActionListener, BookingActions {
         add(titleLabel);
 
         // Information Section
-        guestLabel = new Label("Number of Guests:");
+        guestLabel = new Label("Number of Guest/s (1-4):");
         guestLabel.setBounds(50, 100, 150, 25);
         add(guestLabel);
 
